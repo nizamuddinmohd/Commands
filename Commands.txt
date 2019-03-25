@@ -1,0 +1,5 @@
+Commands
+--------------
+dotnet --version
+dotnet new -i identityserver4.template
+dotnet new is4aspid			(this is for IdentityServer4 with ASP.NET Core Identity)
