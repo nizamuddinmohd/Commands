@@ -3,3 +3,25 @@ Commands
 dotnet --version
 dotnet new -i identityserver4.template
 dotnet new is4aspid			(this is for IdentityServer4 with ASP.NET Core Identity)
+dotnet add package Microsoft.EntityFrameworkCore --version 2.1.4 (latest would be 2.2.3)
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 2.1.4
+dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.15
+dotnet add package MySql.Data.EntityFrameworkCore.Design --version 8.0.15
+dotnet add package IdentityServer4 --version 2.3.2
+dotnet add package IdentityServer4.EntityFramework --version 2.3.2
+dotnet add package IdentityServer4.AspNetIdentity --version 2.3.0
+dotnet add package Microsoft.CodeAnalysis --version 2.10.0
+dotnet restore
+
+
+dotnet ef
+
+dotnet ef migrations add initial_Identity_migration -c ApplicationDbContext -o Data/Migrations/AspNetIdentity/ApplicationDb
+dotnet ef migrations add initial_is4_server_config_migration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb
+dotnet ef migrations add initial_is4_persisted_grant_migration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb
+
+dotnet ef database update --context ApplicationDbContext
+dotnet ef database update --context ConfigurationDbContext
+dotnet ef database update --context PersistedGrantDbContext
+
+dotnet ef migrations remove (to remove any migration)
