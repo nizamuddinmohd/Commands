@@ -11,12 +11,18 @@ dotnet add package IdentityServer4 --version 2.3.2
 dotnet add package IdentityServer4.EntityFramework --version 2.3.2
 dotnet add package IdentityServer4.AspNetIdentity --version 2.3.0
 dotnet add package Microsoft.CodeAnalysis --version 2.10.0
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 2.1.4
+
+dotnet add package AutoMapper --version 8.0.0
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 6.0.0
+
 dotnet restore
 
 
 dotnet ef
 
-dotnet ef migrations add initial_Identity_migration -c ApplicationDbContext -o Data/Migrations/AspNetIdentity/ApplicationDb
+dotnet ef migrations add initial_Identity_migrationWithFeature -c ApplicationDbContext -o Data/Migrations/
 dotnet ef migrations add initial_is4_server_config_migration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb
 dotnet ef migrations add initial_is4_persisted_grant_migration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb
 
@@ -25,3 +31,7 @@ dotnet ef database update --context ConfigurationDbContext
 dotnet ef database update --context PersistedGrantDbContext
 
 dotnet ef migrations remove (to remove any migration)
+
+for Angular client developemnt
+------------------------------
+npm install @angular/cli@latest -g
