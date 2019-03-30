@@ -36,3 +36,12 @@ for Angular client developemnt
 ------------------------------
 npm install @angular/cli@latest -g		(global)
 npm install @angular/cli@latest --save-dev 		(this is for development and should be installed from the local folder of the project.)
+
+ng update @angular/cli --migrate-only --from=1.7.4
+
+npm i @types/mocha
+
+------------
+
+ng new applicationName ( to create an angular application in a folder, then run "ng serve")
+ng serve (build and start angular server, listening on a port
