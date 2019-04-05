@@ -1,15 +1,10 @@
 Commands
 --------------
 dotnet --version
-dotnet new -i identityserver4.template
-dotnet new is4aspid			(this is for IdentityServer4 with ASP.NET Core Identity)
 dotnet add package Microsoft.EntityFrameworkCore --version 2.1.4 (latest would be 2.2.3)
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 2.1.4
 dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.15
 dotnet add package MySql.Data.EntityFrameworkCore.Design --version 8.0.15
-dotnet add package IdentityServer4 --version 2.3.2
-dotnet add package IdentityServer4.EntityFramework --version 2.3.2
-dotnet add package IdentityServer4.AspNetIdentity --version 2.3.0
 dotnet add package Microsoft.CodeAnalysis --version 2.10.0
 
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 2.1.4
@@ -32,10 +27,23 @@ dotnet ef database update --context PersistedGrantDbContext
 
 dotnet ef migrations remove (to remove any migration)
 
+
+npm install angular2-jwt
+npm install ng2-toasty --save
+
+
 for Angular client developemnt
 ------------------------------
+npm install -g npm-install-missing
+
 npm install @angular/cli@latest -g		(global)
 npm install @angular/cli@latest --save-dev 		(this is for development and should be installed from the local folder of the project.)
+npm install @angular-devkit/build-angular --save-dev
+npm install @angular/compiler-cli --save-dev
+npm-install-missing		(to install missing dependencies)
+
+
+npm install angular-in-memory-web-api --save
 
 ng update @angular/cli --migrate-only --from=1.7.4
 
@@ -45,3 +53,10 @@ npm i @types/mocha
 
 ng new applicationName ( to create an angular application in a folder, then run "ng serve")
 ng serve (build and start angular server, listening on a port
+
+
+
+------------
+For adding new file : https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile
+Add "Angular item template" in VS at Tools --> "Extension and Updates..."
+For adding package installer: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.PackageInstaller
