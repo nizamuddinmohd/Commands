@@ -1,0 +1,25 @@
+
+Updating service [default] (this may take several minutes)...failed.
+ERROR: (gcloud.app.deploy) Error Response: [9]
+Application startup error:
+
+> my-app@0.0.0 start /app
+> ng serve
+
+
+sh: 1: ng: not found
+npm ERR! file sh
+npm ERR! code ELIFECYCLE
+npm ERR! errno ENOENT
+npm ERR! syscall spawn
+npm ERR! my-app@0.0.0 start: `ng serve`
+npm ERR! spawn ENOENT
+npm ERR!
+npm ERR! Failed at the my-app@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-04-06T16_02_49_204Z-debug.log
+-------------
+
+Error Response: [4] Your deployment has failed to become healthy in the allotted time and therefore was rolled back. If you believe this was an error, try adjusting the 'app_start_timeout_sec' setting in the 'readiness_check' section.

@@ -41,13 +41,19 @@ npm install @angular/cli@latest --save-dev 		(this is for development and should
 npm install @angular-devkit/build-angular --save-dev
 npm install @angular/compiler-cli --save-dev
 npm-install-missing		(to install missing dependencies)
+npm install typescript
 
+npm install -dev typescript@3.2.4
 
 npm install angular-in-memory-web-api --save
 
 ng update @angular/cli --migrate-only --from=1.7.4
 
+
+
 npm i @types/mocha
+
+npm install ngx-pagination --save
 
 ------------
 
@@ -60,3 +66,35 @@ ng serve (build and start angular server, listening on a port
 For adding new file : https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile
 Add "Angular item template" in VS at Tools --> "Extension and Updates..."
 For adding package installer: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.PackageInstaller
+
+
+
+--------------------------
+
+Hero application.
+----------------
+- Start.
+- Clone from Git.
+- Open in command prompt to update database
+- Build and run in VS 2017.
+- Application is doing all the CRUD and serach.
+- End
+
+----------
+Google Cloud
+---------------
+in your google cloud project:
+	Enable Stackdriver Error Reporting API
+	Enable Stackdriver Trace API
+
+git clone \ <repo path>
+or
+git pull \ <repo> (before pull "rm <file name>" all the modified files)
+
+export PORT=8080 && npm install
+
+npm start
+
+gcloud app create (if application has not been created)
+
+gcloud app deploy
