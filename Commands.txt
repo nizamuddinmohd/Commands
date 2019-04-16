@@ -99,3 +99,10 @@ npm start
 gcloud app create (if application has not been created)
 
 gcloud app deploy
+
+
+----------------
+
+
+
+http://jasonwatmore.com/post/2018/06/26/aspnet-core-21-simple-api-for-authentication-registration-and-user-management
