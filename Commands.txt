@@ -60,6 +60,7 @@ npm install ngx-pagination --save
 ng new applicationName ( to create an angular application in a folder, then run "ng serve")
 ng serve (build and start angular server, listening on a port
 
+ng g component {component name} (g = generate)
 
 
 ------------
