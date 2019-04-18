@@ -88,6 +88,7 @@ npm install ngx-pagination --save
 ng new applicationName ( to create an angular application in a folder, then run "ng serve")
 ng serve (build and start angular server, listening on a port
 
+ng g component {component name} (g = generate)
 
 
 ------------
@@ -144,3 +145,5 @@ Bdbd+yYIDxImRiXX13S69fFniink8KevoqrEftwU
 
 Console login link
 https://894696327453.signin.aws.amazon.com/console
+
+http://jasonwatmore.com/post/2018/06/26/aspnet-core-21-simple-api-for-authentication-registration-and-user-management
