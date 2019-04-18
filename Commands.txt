@@ -1,3 +1,31 @@
+PreReq
+------
+
+.NET SDK	(dotnet --version)
+Node js		(node --version) (npm --version)
+postman
+sqlLite db browser
+visual studio code
+	Extension
+		Angular v(*) from John Papa snippets (* = 6)
+		Angular Files from Alexander Ivanichev		-- for scafolding
+		Angular language service from Angular
+		Angular-2 swithcer from Infinity1207
+		AutoRename from Jun Han
+		Bracket Pair colorizer from CoenraadS
+		Debugger from Chrome from Microsoft
+		Material IconTheme from Phillipp
+		Path Intellisense from  Christian Kohler
+		Prettier - Code Formatter from Esben Petersen
+		TsLint from Egamma
+		
+
+Dotnet cli
+Angular cli
+Bootstrap		(npm install bootstrap)
+Font Awesome	(npm install font-awesome)
+
+
 Commands
 --------------
 dotnet --version
@@ -49,7 +77,7 @@ npm install angular-in-memory-web-api --save
 
 ng update @angular/cli --migrate-only --from=1.7.4
 
-
+ng build --prod (to build application in release mode)
 
 npm i @types/mocha
 
@@ -97,4 +125,22 @@ npm start
 
 gcloud app create (if application has not been created)
 
+gcloud app update --no-split-health-checks
+
 gcloud app deploy
+
+09/04/2019 qZfvlRJXM,x?bSb
+
+----------------
+
+User name	Password	Access key ID	Secret access key	Console login link
+Nizam		AKIAI2CC6JBIF7QEHAYQ	Bdbd+yYIDxImRiXX13S69fFniink8KevoqrEftwU	https://894696327453.signin.aws.amazon.com/console
+
+Access key ID
+AKIAI2CC6JBIF7QEHAYQ
+
+Secret access key
+Bdbd+yYIDxImRiXX13S69fFniink8KevoqrEftwU
+
+Console login link
+https://894696327453.signin.aws.amazon.com/console
