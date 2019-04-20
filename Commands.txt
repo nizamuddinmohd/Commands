@@ -158,3 +158,6 @@ Console login link
 https://894696327453.signin.aws.amazon.com/console
 
 http://jasonwatmore.com/post/2018/06/26/aspnet-core-21-simple-api-for-authentication-registration-and-user-management
+
+
+https://www.mssqltips.com/sqlservertip/5528/installing-sql-server-2017-express/
