@@ -20,12 +20,19 @@ visual studio code
 		TsLint from Egamma
 		
 
+ext install autoimport
+
 Dotnet cli
 Angular cli
 Bootstrap		(npm install bootstrap)
 Font Awesome	(npm install font-awesome)
 
+npm install bootstrap --save-dev
+npm install jquery --save-dev
+ng add @ng-bootstrap/schematics
+npm install message-service
 
+npm
 Commands
 --------------
 dotnet --version
@@ -89,6 +96,7 @@ ng new applicationName ( to create an angular application in a folder, then run 
 ng serve (build and start angular server, listening on a port
 
 ng g component {component name} (g = generate)
+ng generate component --spec=false --inlineStyle=true component-name
 
 
 ------------
@@ -131,6 +139,9 @@ gcloud app update --no-split-health-checks
 gcloud app deploy
 
 09/04/2019 qZfvlRJXM,x?bSb
+
+
+*jo*]\r/$h)^}t2
 
 ----------------
 
