@@ -40,24 +40,32 @@ visual studio code
 		TsLint from Egamma
 		
 
+ext install autoimport
+
 Dotnet cli
 Angular cli
 Bootstrap		(npm install bootstrap)
 Font Awesome	(npm install font-awesome)
 
+npm install bootstrap --save-dev
+npm install jquery --save-dev
+ng add @ng-bootstrap/schematics
+npm install message-service
 
+npm
 Commands
 --------------
 dotnet --version
-dotnet add package Microsoft.EntityFrameworkCore --version 2.1.1 (latest would be 2.2.3)
-dotnet add package Microsoft.Extensions.DependencyInjection --version 2.1.1
 
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 2.1.4
+dotnet add package Microsoft.EntityFrameworkCore --version 2.1.0 (latest would be 2.2.3)
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 2.1.0
+
 dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.15
 dotnet add package MySql.Data.EntityFrameworkCore.Design --version 8.0.15
 dotnet add package Microsoft.CodeAnalysis --version 2.10.0
 
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 2.1.4
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 2.1.0
 
 dotnet add package AutoMapper --version 8.0.0
 dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 6.0.0
@@ -111,6 +119,7 @@ ng new applicationName ( to create an angular application in a folder, then run 
 ng serve (build and start angular server, listening on a port
 
 ng g component {component name} (g = generate)
+ng generate component --spec=false --inlineStyle=true component-name
 
 
 ------------
@@ -153,6 +162,9 @@ gcloud app update --no-split-health-checks
 gcloud app deploy
 
 09/04/2019 qZfvlRJXM,x?bSb
+
+
+*jo*]\r/$h)^}t2
 
 ----------------
 
