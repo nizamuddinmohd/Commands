@@ -1,3 +1,23 @@
+
+npm install ngx-bootstrap bootstrap --save
+
+For Dropdown
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+...
+
+@NgModule({
+   ...
+   imports: [BsDropdownModule.forRoot(), ... ],
+   ...
+})
+
+"styles": [
+         "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css",
+      ],
+
+
+
 PreReq
 ------
 
@@ -29,7 +49,9 @@ Font Awesome	(npm install font-awesome)
 Commands
 --------------
 dotnet --version
-dotnet add package Microsoft.EntityFrameworkCore --version 2.1.4 (latest would be 2.2.3)
+dotnet add package Microsoft.EntityFrameworkCore --version 2.1.1 (latest would be 2.2.3)
+dotnet add package Microsoft.Extensions.DependencyInjection --version 2.1.1
+
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 2.1.4
 dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.15
 dotnet add package MySql.Data.EntityFrameworkCore.Design --version 8.0.15
