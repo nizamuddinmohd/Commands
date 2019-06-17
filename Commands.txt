@@ -112,7 +112,7 @@ ng build --prod (to build application in release mode)
 npm i @types/mocha
 
 npm install ngx-pagination --save
-
+npm install ng2-file-upload --save
 ------------
 
 ng new applicationName ( to create an angular application in a folder, then run "ng serve")
